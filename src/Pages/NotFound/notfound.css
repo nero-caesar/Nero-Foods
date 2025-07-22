@@ -1,0 +1,22 @@
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.notfound-title {
+  color: rgba(255, 204, 0, 1); /* yellow accent */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.notfound-text {
+  color: rgb(85, 191, 75); /* green accent */
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
