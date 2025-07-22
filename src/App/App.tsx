@@ -11,7 +11,7 @@ import Menu from "../Pages/Menu/menu.tsx"
 import Cart from "../Pages/Carty/cart.tsx"
 import type { CartItem, Product } from "../Component/Cart/carttypes.ts"
 import "./App.css"
-import Navbar from "../Component/Navbar/Navbar.tsx"
+import Navbar from "../Component/Navbar/navbar.tsx"
 
 const App: React.FC = () => {
   const [cart, setCart] = useState<CartItem[]>([])
